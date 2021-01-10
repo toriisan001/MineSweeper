@@ -1,0 +1,90 @@
+body{
+    background: #ccc;
+    color: #fff;
+    font-family: 'Courier New', sans-serif;
+    /* font-size: 16px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+#info {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+}
+#timer {
+    width: 70px;
+    margin-right: 0px auto;
+}
+#resetBtn {
+    margin: 0px auto;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+#bomCount {
+    width: 70px;
+    margin-left: 0px auto;
+}
+#container {
+    /* width: 820px; */
+    margin: 16px auto;
+}
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 8px;
+    padding: 10px;
+    margin-top: 0px;
+    background: #fff;
+    border-radius: 4px;
+}
+#board li {
+    background: #00aaff;
+    width:38px;
+    height: 38px;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    user-select: none;
+}
+#board li.pressed {
+    background: #ccc;
+    border: 1px solid #fff;
+}
+#board li.flag {
+    background: #f0e68c;
+}
+#board li.bomb {
+    background: #ff0000;
+}
+#board li.notBomb {
+    color: #000;
+}
+#board li.\31 {
+    color: #191970;
+}
+#board li.\32 {
+    color: #008000;
+}
+#board li.\33 {
+    color: #ff0000;
+}
+#board li.\34 {
+    color: #000;
+}
+#board li.\35 {
+    color: #800000;
+}
+#board li.\36 {
+    color: #ee82ee;
+}
+#board li.\37 {
+    color: #8a2be2;
+}
+#board li.\38 {
+    color: #6a5acd;
+}
